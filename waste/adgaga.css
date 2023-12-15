@@ -1,0 +1,36 @@
+
+@media only screen and (max-width: 768px) {
+    .notes-page {
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0; /* Ensure the note page is visible */
+    }
+
+    .sidebar {
+        width: 100%;
+        left: 0;
+    }
+
+    .create-page {
+        width: 100%;
+    }
+
+    .create-page.show-create {
+        margin-left: 0; /* Move the create page into view */
+    }
+
+    .typing-area {
+        width: 96%;
+        height: 150px;
+        position: absolute;
+        background-color: #001F8B;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        display: flex;
+    }
+}
+
+/* Add other media query styles as needed */
+
+/* Rest of your existing styles... */
